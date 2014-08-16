@@ -31,7 +31,7 @@ public class Formiga extends javax.swing.JFrame implements Runnable{
         while(VisualizadorGrid.janelaEstaPronta() == false)
         {
             try {
-                Thread.sleep(5);
+                Thread.sleep(6);
             } catch (InterruptedException ex) {
                 Logger.getLogger(Formiga.class.getName()).log(Level.SEVERE, null, ex);
             }
